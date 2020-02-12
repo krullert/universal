@@ -6,6 +6,7 @@ branches:
     - master
 language: java
 jdk: oraclejdk8
+dist: trusty
 install: true
 cache:
   directories:
