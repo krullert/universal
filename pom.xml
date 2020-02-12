@@ -53,7 +53,7 @@
         <javapoet.version>1.12.1</javapoet.version>
 
         <!-- validation -->
-        <hibernate-validator.version>6.0.10.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
 
         <!-- commons -->
         <commons-math.version>2.2</commons-math.version>
