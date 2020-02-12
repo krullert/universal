@@ -12,6 +12,8 @@ cache:
     - "$HOME/.m2"
 
 before_install:
+  - ls -la
+  - rm *.?
   - echo 'github.com ssh-rsa $PUBLIC_KEY' >> ~/.ssh/known_hosts
   - git clone "https://github.com/onsense/universal.git" .
   - git remote set-url origin "https://${GITHUB_TOKEN}@github.com/onsense/universal.git" > /dev/null 2>&1
