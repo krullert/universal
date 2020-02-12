@@ -14,7 +14,8 @@ cache:
 before_install:
   - echo 'github.com ssh-rsa $PUBLIC_KEY' >> ~/.ssh/known_hosts
   - ls -la
-  - git clone "https://github.com/onsense/universal.git" .
+  - git clone "https://github.com/onsense/universal.git" ./universal
+  - cd ./universal
   - git remote set-url origin "https://${GITHUB_TOKEN}@github.com/onsense/universal.git" > /dev/null 2>&1
   - git fetch --force origin "$TRAVIS_BRANCH:remotes/origin/$TRAVIS_BRANCH"
   - git reset --hard "HEAD"
