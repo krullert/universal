@@ -16,6 +16,26 @@ sed --in-place "/<servers>/ a\
 sed --in-place "/<profiles>/ a\
 \\
         <profile>\n\
+            <repositories>\n\
+                <repository>\n\
+                    <snapshots>\n\
+                        <enabled>false</enabled>\n\
+                    </snapshots>\n\
+                    <id>central</id>\n\
+                    <name>bintray</name>\n\
+                    <url>https://jcenter.bintray.com</url>\n\
+                </repository>\n\
+            </repositories>\n\
+            <pluginRepositories>\n\
+                <pluginRepository>\n\
+                    <snapshots>\n\
+                        <enabled>false</enabled>\n\
+                    </snapshots>\n\
+                    <id>central</id>\n\
+                    <name>bintray-plugins</name>\n\
+                    <url>https://jcenter.bintray.com</url>\n\
+                </pluginRepository>\n\
+            </pluginRepositories>\n\
             <id>release</id>\n\
             <activation>\n\
                 <activeByDefault>false</activeByDefault>\n\
