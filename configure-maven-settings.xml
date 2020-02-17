@@ -12,5 +12,21 @@
     </servers>
 
     <profiles>
+        <profile>
+            <id>bintray</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>bintray</name>
+                    <url>https://jcenter.bintray.com</url>
+                </repository>
+            </repositories>
+        </profile>
     </profiles>
 </settings>
