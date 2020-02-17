@@ -34,7 +34,8 @@ before_install:
   - git pull
 
 script:
-  - mvn clean install
+  - chmod +x ./configure-maven.sh && ./configure-maven.sh && chmod -x ./configure-maven.sh
+    && mvn --settings .mvn/conf/settings.xml --batch-mode -U --activate-profiles release clean install
 
 deploy:
   provider: script
