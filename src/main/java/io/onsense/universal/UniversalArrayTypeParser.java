@@ -24,8 +24,8 @@ public class UniversalArrayTypeParser {
 
         final UniversalLexer lexer = new UniversalLexer(CharStreams.fromString(UniversalPreParser.preParse(universal)));
         final CommonTokenStream tokens = new CommonTokenStream(lexer);
-        final UniversalParser parser = new UniversalParser(tokens);
-        final UniversalParser.UniversalContext expression = parser.universal();
+        final io.onsense.universal.grammar.UniversalParser parser = new io.onsense.universal.grammar.UniversalParser(tokens);
+        final io.onsense.universal.grammar.UniversalParser.UniversalContext expression = parser.universal();
         parser.setErrorHandler(new BailErrorStrategy());
 
         if (parser.getNumberOfSyntaxErrors() > 0) {
