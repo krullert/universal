@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/onsense/universal.svg?branch=master)](https://travis-ci.org/onsense/universe) [ ![Download](https://api.bintray.com/packages/onsense/universe/onsense-universal/images/download.svg) ](https://bintray.com/onsense/universal/onsense-universal/_latestVersion)
+[![Build Status](https://travis-ci.org/onsense/universal.svg?branch=master)](https://travis-ci.org/onsense/universal) [ ![Download](https://api.bintray.com/packages/onsense/universal/onsense-universal/images/download.svg) ](https://bintray.com/onsense/universal/onsense-universal/_latestVersion)
 
 # universe
 
