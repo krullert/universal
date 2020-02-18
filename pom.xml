@@ -4,7 +4,7 @@
 
     <groupId>io.onsense</groupId>
     <artifactId>universal</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -781,7 +781,7 @@
         <url>https://github.com/onsense/universal</url>
         <connection>scm:git:git@github.com:onsense/universal.git</connection>
         <developerConnection>scm:git:git@github.com:onsense/universal.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.4</tag>
     </scm>
 
     <distributionManagement>
